@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_spanish_accounting *.css
+recursive-include erpnext_spanish_accounting *.csv
+recursive-include erpnext_spanish_accounting *.html
+recursive-include erpnext_spanish_accounting *.ico
+recursive-include erpnext_spanish_accounting *.js
+recursive-include erpnext_spanish_accounting *.json
+recursive-include erpnext_spanish_accounting *.md
+recursive-include erpnext_spanish_accounting *.png
+recursive-include erpnext_spanish_accounting *.py
+recursive-include erpnext_spanish_accounting *.svg
+recursive-include erpnext_spanish_accounting *.txt
+recursive-exclude erpnext_spanish_accounting *.pyc
